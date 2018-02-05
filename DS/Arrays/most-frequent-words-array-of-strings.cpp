@@ -40,7 +40,7 @@ int main()
 				max_count=it->second;
 				most= it->first;
 			}
-			else if(it->second == max_count)   //if the count is equal,then check lexo 
+			else if(it->second == max_count)   //if the count is equal,then check lexi......
 			{
 				if (it-> first < most)
 					most = it->first;
