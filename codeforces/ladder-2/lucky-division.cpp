@@ -39,7 +39,7 @@ bool check_divisble(int b)
 		//cout<<"checked : "<<i<<"\n";
 		if (check_lucky(i))
 		{
-			cout<<i<<"\n";
+			//cout<<i<<"\n";
 			if(b%i ==0)
 			{
 				return true;

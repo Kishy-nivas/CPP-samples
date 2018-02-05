@@ -11,5 +11,8 @@ int main()
 	int ans = (int)ceil((x*z)/100.0);
 	ans= ans-w;
 
-	cout<<ans<0? 0 : ans;
+	if (ans< 0)
+		cout<<0<<"\n";
+	else
+		cout<<ans<<"\n";
 }
