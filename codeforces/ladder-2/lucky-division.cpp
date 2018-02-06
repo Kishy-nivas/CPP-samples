@@ -29,6 +29,7 @@ bool check_lucky(int a)
 	
 
 }
+
 bool check_divisble(int b)
 {
 	if(check_lucky(b))
